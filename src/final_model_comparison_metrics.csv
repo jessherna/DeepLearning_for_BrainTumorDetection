@@ -1,0 +1,6 @@
+Model,Experiment,Test Accuracy,Tumor Precision,Tumor Recall,Tumor F1-Score,Test Loss,Tumor FNR
+VGG16,Supervised CNN,0.8571,0.9,0.6923,0.7826,2.1,0.3077
+Autoencoder,Unsupervised Anomaly,0.77,,0.5385,,0.075,0.4615
+VAE,Unsupervised Anomaly,0.73,,0.4615,,0.78,0.5385
+ViT,SOTA (Supervised),0.82,0.8,0.6154,0.6957,0.42,0.3846
+EfficientNetB0,SOTA (Supervised),0.8889,1.0,0.7692,0.87,0.63,0.2308
