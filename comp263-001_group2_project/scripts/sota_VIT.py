@@ -267,7 +267,7 @@ trainer = Trainer(
     eval_dataset=val_data,
     data_collator=collate_fn,
     compute_metrics=compute_metrics,
-    processor=processor,
+    processing_class=processor,
     callbacks=[EarlyStoppingCallback(early_stopping_patience=3, early_stopping_threshold=0.001)]
 )
 
